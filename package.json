@@ -1,0 +1,15 @@
+{
+  "name": "rickandmorty",
+  "version": "1.0.0",
+  "description": "Proyecto para consumir API de Rick and Morty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rickandmorty"
+  ],
+  "author": "Florencia De Mollein",
+  "license": "ISC"
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(70, 89, 119, 0.5550595238095238) 70%,
+    rgba(0, 2, 5, 1) 90%
+  );
+  min-height: 100vh;
+}
+
+#logo {
+  height: 200px;
+  object-fit: contain;
+}
+
+#buscador {
+    padding: 0;
+    display: flex;
+    margin: 25px 5px 0px 5px;
+}
+
+#input {
+    margin: 0px 20px;
+}
+
+#apiR {
+    margin-top: 3rem;;
+}
+
+#apiR img {
+  object-fit: cover;
+}
+
+#message {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  background: red;
+  border-radius: 20px;
+}
+
+@media handheld, screen and (max-width: 760px) {
+    #buscador {
+        display: block;
+        margin: -45px auto 0 auto;
+    }
+
+    #input {
+        margin: 0px auto 20px;
+    }
+
+    #find {
+        width: 100%;
+    }
+
+    #apiR {
+        margin-top: 2rem;;
+    }
+}
